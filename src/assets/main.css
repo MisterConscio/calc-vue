@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #202123;
+    color: #ffffff;
+  }
+
+  h1 {
+    color: #fae69e;
+  }
+
+  input, button, select {
+    background-color: #40414f;
+    color: #fdf2cb;
+    border-color: #40414f;
+    font-size: 1em;
+  }
+
+  button[type=submit]:hover {
+    background-color: #444654;
+    border-color: #444654;
+  }
+}
+
